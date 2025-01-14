@@ -24,7 +24,7 @@ MarkupSafe==3.0.2
 mdurl==0.1.2
 narwhals==1.22.0
 numpy==2.2.1
-openai==1.59.7
+openai==0.27.8
 packaging==24.2
 pandas==2.2.3
 pillow==11.1.0
