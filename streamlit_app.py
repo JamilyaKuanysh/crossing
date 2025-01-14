@@ -4,7 +4,7 @@ import streamlit as st
 from parse_hh import get_candidate_info, get_job_description
 
 # Установка API ключа
-openai.api_key = os.getenv("OPENAI_API_KEY")  # Или используйте st.secrets["api_keys"]["OPENAI_API_KEY"]
+openai.api_key = os.getenv("OPENAI_API_KEY") or st.secrets.get("OPENAI_API_KEY")
 
 # Системный промпт
 SYSTEM_PROMPT = """
